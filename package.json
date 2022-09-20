@@ -1,0 +1,40 @@
+{
+  "name": "music-bot-dis",
+  "version": "1.0.0",
+  "description": "Discord music bot",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhaider00/Double-h-music.git"
+  },
+  "author": "Hamza Haider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhaider00/Double-h-music/issues"
+  },
+  "homepage": "https://github.com/hhaider00/Double-h-music#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.8.0",
+    "@distube/spotify": "^1.1.0",
+    "@distube/yt-dlp": "^0.0.2",
+    "@distube/ytdl-core": "^4.11.3",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.3.1",
+    "distube": "^3.2.2",
+    "dotenv": "^14.3.2",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "^0.7.9",
+    "utils-discord": "^2.0.4",
+    "yt-search": "^2.10.2",
+    "ytdl-core": "^4.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
